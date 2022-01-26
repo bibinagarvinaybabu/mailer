@@ -1,0 +1,202 @@
+body.mailer-body{
+    background-color: #ccd9ff;;
+}
+
+
+.card.signin-card{
+    padding: 0px 0px 20px;
+    background-color: #f4f4f4;
+    box-shadow: 2px 2px 5px rgba(0, 0,0,0.5);
+    -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0,0.5);
+    -moz-box-shadow: 2px 2px 5px rgba(0, 0, 0,0.5);
+
+}
+
+.navbar_hugging {
+    padding:0;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.borderdtl {
+    padding: 10px 0px 20px 0px;
+    /* background-color: #090979; */
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%);
+    box-shadow: 2px 2px 5px rgba(0, 0,0,0.5);
+    -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0,0.5);
+    -moz-box-shadow: 2px 2px 5px rgba(0, 0, 0,0.5);
+    border-radius: 10px;
+    /* padding-top: 10px; */
+}
+
+.add_button{
+    /* padding: 0px; */
+    width:100%;
+    margin: 10px;
+    /* float: right; */
+    /* float: right; */
+}
+
+label.hinttext{
+    float: right;
+    padding-right: 9px;
+    font-size: 0.9rem;
+    font-style: italic;
+    color:red;
+}
+.adder {
+    /* padding: 2rem; */
+    float: right;
+    margin-right: 2rem;
+    margin-bottom: 10px;
+    padding: 0 20px;
+    border-radius: 8px;
+}
+
+label.collabel {
+    /* margin-top: 2rem;  */
+    font-weight: 500;
+    color: #fff;
+}
+
+.pageHeader {
+    padding: 0;
+}
+
+.datacontent {
+    padding:5px;
+    width: 100%;
+    box-sizing: border-box;
+   /* // margin-bottom: 1rem; */
+    /* background-color: #eee; */
+}
+
+.inputsize {
+    width:30%;
+    margin-bottom: 1rem;
+}
+.formdata li {
+    list-style: none;
+    float: left;
+}
+.colpadding{
+    padding-left: 4rem;
+}
+input[name*="input"]{
+    max-width:100%;
+    width: 80%;
+    border-radius: 4px;
+    border-width: 1.2px; 
+
+}
+.test{
+     display: block;
+     margin: auto;
+     width:10%
+}
+h1 {
+    text-align: center;
+    color:cyan;
+    padding-bottom: 10px;
+}
+.headerDetails {
+    background-image: url(coalmine.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.topnav {
+    background-color: gray;
+    color: gray;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+.buttons {
+    background-color: #04AA6D;
+}
+
+.row.rowfields{
+    padding-bottom: 20px;
+}
+button.deleteicon {
+    border:none;
+    /* background-color: none!important; */
+    background-color: transparent!important;
+    padding:0;
+    
+}
+.bi-trash:hover {
+    color: darkblue!important;
+    
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+  .sendmail{
+    
+      padding-left: 3rem;
+      padding-right: 3rem;
+      border-radius: 8px;
+      display: block;
+      margin: auto;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+  }
+  .rowpadding {
+      padding-top: 0.5rem;
+  }
+  .modalresizing {
+      max-width: 70%;
+  }
+  .editor1 {
+      width: 100%;
+  }
+  .radiogroup {
+      padding-left: 2rem;
+      padding-top: 0;
+      text-align: left;
+  }
+  input[type="radio"]:hover {
+    cursor: pointer;
+    /* background-color: lightblue; */
+    border-color: rgb(66, 119, 233);
+    border-width: 4px;
+
+  }
+  div.textarea.editoroption2 {
+      display: none;
+  }
+  .type-button{
+      width: 100%;
+  }
+  .button-icon {
+      background-color: lightskyblue;
+  }
+
